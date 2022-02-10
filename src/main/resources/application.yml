@@ -5,5 +5,7 @@ server:
 ---
 spring:
     profiles: test
+    thymeleaf:
+        enabled: true
 server:
     port: 9000
